@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --accent-yellow: #ecad0a;
+  --blue-primary: #209dd7;
+  --purple-secondary: #753991;
+  --dark-navy: #032147;
+  --gray-text: #888888;
+}
+
+@theme inline {
+  --font-sans: var(--font-outfit);
+  --font-mono: var(--font-space-grotesk);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--dark-navy);
+  font-family: var(--font-outfit), "Segoe UI", sans-serif;
+}
